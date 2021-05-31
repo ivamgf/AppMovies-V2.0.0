@@ -1,4 +1,4 @@
-import Document from 'next/document';
+import Document, { Html, Head, Main, NextScript } from 'next/document';
 import { ServerStyleSheet } from 'styled-components';
 
 export default class MyDocument extends Document {
@@ -25,6 +25,21 @@ export default class MyDocument extends Document {
       };
     } finally {
       sheet.seal();
-    }
+    }    
+  }
+
+  render() {
+    return (
+      <Html lang="pt-BR">
+        <Head>
+          <meta name="description" content="App Movies Version 2.0.0" />
+          <link rel="manifest" href="../../manifest.json" />
+        </Head>
+        <body>
+          <Main />
+          <NextScript />
+        </body>
+      </Html>
+    );
   }
 }

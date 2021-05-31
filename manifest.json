@@ -1,6 +1,6 @@
 {
-    "short_name": "Weather",
-    "name": "Weather: Do I need an umbrella?",
+    "short_name": "App Movies",
+    "name": "App Movies",
     "icons": [
       {
         "src": "",
@@ -20,21 +20,21 @@
     "theme_color": "#3367D6",
     "shortcuts": [
       {
-        "name": "How's weather today?",
-        "short_name": "Today",
-        "description": "View weather information for today",
+        "name": "App Movies",
+        "short_name": "App Movies",
+        "description": "App Movies Version 2.0.0",
         "url": "/today?source=pwa",
         "icons": [{ "src": "", "sizes": "192x192" }]
       },
       {
-        "name": "How's weather tomorrow?",
-        "short_name": "Tomorrow",
-        "description": "View weather information for tomorrow",
+        "name": "App Movies",
+        "short_name": "App Movies",
+        "description": "App Movies Version 2.0.0",
         "url": "/tomorrow?source=pwa",
         "icons": [{ "src": "/images/tomorrow.png", "sizes": "192x192" }]
       }
     ],
-    "description": "Weather forecast information",
+    "description": "App Movies Version 2.0.0",
     "screenshots": [
       {
         "src": "",
